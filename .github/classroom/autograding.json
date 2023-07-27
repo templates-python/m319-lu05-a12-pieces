@@ -3,7 +3,47 @@
     {
       "name": "impossible",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -k \"test_bar\"",
+      "run": "pytest -k \"test_step1\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "impossible",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_step2\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "impossible",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_step3\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "impossible",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_step4\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "impossible",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_step5\"",
       "input": "",
       "output": "",
       "comparison": "included",
