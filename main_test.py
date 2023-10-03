@@ -2,7 +2,7 @@ from main import main
 
 
 def test_step1(capsys, monkeypatch):
-    inputs = iter([10, 5, -2, 21, 6, -1])
+    inputs = iter(['10', '5', '-2', '21', '6', '-1'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr().out
@@ -10,7 +10,7 @@ def test_step1(capsys, monkeypatch):
 
 
 def test_step2(capsys, monkeypatch):
-    inputs = iter([10, 5, -2, 21, 6, -1])
+    inputs = iter(['10', '5', '-2', '21', '6', '-1'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr().out
@@ -19,7 +19,7 @@ def test_step2(capsys, monkeypatch):
 
 
 def test_step3(capsys, monkeypatch):
-    inputs = iter([10, 5, -2, 21, 6, -1])
+    inputs = iter(['10', '5', '-2', '21', '6', '-1'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr().out
@@ -29,7 +29,7 @@ def test_step3(capsys, monkeypatch):
 
 
 def test_step4(capsys, monkeypatch):
-    inputs = iter([10, 5, -2, 21, 6, -1])
+    inputs = iter(['10', '5', '-2', '21', '6', '-1'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr().out
@@ -40,7 +40,7 @@ def test_step4(capsys, monkeypatch):
 
 
 def test_step5(capsys, monkeypatch):
-    inputs = iter([10, 5, -2, 21, 6, -1])
+    inputs = iter(['10', '5', '-2', '21', '6', '-1'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr().out
