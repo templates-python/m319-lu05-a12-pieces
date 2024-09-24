@@ -1,6 +1,6 @@
 name: Workflow for BZZ Programming Lessons using Github-Classroom and Moodle
 
-on: push
+on: [push, fork]
 
 permissions:
   checks: write
